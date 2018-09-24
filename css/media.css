@@ -1,0 +1,635 @@
+@media screen and (min-width: 1200px) {
+	.smoke-wrap {
+		position: absolute;
+		right: -242px;
+    	top: 110px;
+    	animation: smoke  3.3s infinite;
+	}	
+	@keyframes smoke {		
+		50% {		
+			transform: translateY(13px) ;		
+		}		
+	}
+}
+@media screen and (max-width: 1199px) {
+	.deadline, .timer, .smoke-wrap {
+		display: none;
+	}
+	.cloud {
+		left: 30%;
+		top: 295px;
+	}
+	#reason {
+		background-size: 50% 50%;
+		background-position-x: 95%; 
+		padding: 100px 0 117px 0;
+	}
+	.pricing-plan_head {
+		padding-left: 210px;
+	}
+	.pricing-plan2 .pricing-plan_body li:first-child div:first-child {
+		height: 57.1333px;
+	}
+	.feedback {
+		margin-left: 55px;
+	}
+	.prev {
+	    left: 38%;
+	}
+	.next {
+	    right: 38%;
+	}
+	footer {
+		padding-bottom: 69px;
+	}
+	.footer_deer {
+		display: none;
+	}
+	.footer_mobile-deer {
+		display: block;
+	}
+	.footer_img {
+		width: 100%;
+		margin-left: -15px;
+		position: absolute;
+	}
+	.footer_content {
+		margin-left: 0;
+		text-align: center;
+	}
+	.footer_subtitle {
+		margin: 60px auto 15px auto;
+	}
+	.footer_text {
+		width: 80%;
+		margin: 35px auto 0 auto;
+	}
+	.footer_timer {
+		display: block;
+		width: auto;
+	}
+	.footer_button {
+		margin: 0 auto;
+	}
+	.footer_info {
+		margin-top: 114px;
+		flex-direction: column;	
+	}
+	.footer_info div:not(:nth-child(5)) {
+		margin-bottom: 23px;
+	}
+	.footer_info div:nth-child(4), .footer_info div:nth-child(6) {
+		margin-bottom: 30px;
+	}
+	.footer_socials {
+		order: 2;
+	}
+	.order-button {
+		order: 1;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	header {
+		padding-bottom: 225px;
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/tablet-header-bg.png) no-repeat center bottom / contain,				
+					linear-gradient(0deg, rgba(59,196,248,1) 0%, rgba(3,134,226,1) 100%);
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/tablet-header-bg.png) no-repeat center bottom / contain,
+					-moz-linear-gradient(90deg, rgba(59,196,248,1) 0%, rgba(3,134,226,1) 100%); 
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/tablet-header-bg.png) no-repeat center bottom / contain,
+					-webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(3,134,226,1)), color-stop(100%, rgba(59,196,248,1))); 
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/tablet-header-bg.png) no-repeat center bottom / contain,
+					-webkit-linear-gradient(90deg, rgba(59,196,248,1) 0%, rgba(3,134,226,1) 100%); 
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/tablet-header-bg.png) no-repeat center bottom / contain,
+					-o-linear-gradient(90deg, rgba(59,196,248,1) 0%, rgba(3,134,226,1) 100%); 
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/tablet-header-bg.png) no-repeat center bottom / contain,
+					-ms-linear-gradient(90deg, rgba(59,196,248,1) 0%, rgba(3,134,226,1) 100%); 	
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0386e2', endColorstr='#3bc4f8',GradientType=0 );		
+	}
+	@keyframes snowHeader {	
+		from {		
+			background-position: -1600px -832px, 800px -832px, center -832px, center bottom, 0px 0px;
+		}
+		50% {		
+			background-position: -1400px -350px, 100px -500px, center -416px, center bottom, 0px 0px;
+		}		
+	}
+	.clouds-wrap {
+		display: none;
+	}
+	h1, .offer_text, .more-button {
+		margin-left: 0px;
+	}
+	#reason {		
+		padding: 145px 0 90px 0;
+		background: #fff;
+	}
+	.video {
+		width: 575px;
+		margin: 0 auto;
+	}
+	.reason_subtitle {
+		margin-bottom: 40px;
+	}
+	.reason_content {
+		text-align: center;
+		padding-top: 210px;
+		margin-top: 45px;
+		background: url(../img/andrew-pic.png) no-repeat center top; 
+	}
+	.reason_content div:last-of-type {
+		margin: 0 auto 15px auto;
+	}
+	#changes {
+		padding: 50px 0 75px 0;
+	}
+	.changes_photos {		   
+	    width: 1036px;      
+	    margin: 58px auto 0 -21.5%;
+	}
+	.changes_photo {
+		width: 144px;
+		height: 113px;
+		margin-right: 4px;
+	}
+	.changes_content div:first-of-type {
+		margin-top: 38px;
+	}
+	#education {
+		padding: 48px 0 120px 0;
+	}
+	.frontend {
+		margin-bottom: 70px;
+	}
+	.mk_subtitle {
+		margin-bottom: 40px;
+	}
+	.one-mk {
+		width: 555px;
+		margin: 0 auto 28px auto;
+	}
+	.education_value {
+		margin-top: 28px;
+	}
+	#game {
+	    padding-bottom: 75px;
+	}
+	#game h2 {
+		width: 500px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.game_subtitle {
+		margin-bottom: 30px;
+	}
+	.game_photos {
+		background: url(../img/tai-mobile.png) no-repeat center top; 
+	}
+	.snow-tai {
+		left: 0%;
+		top: 0px;
+	}
+	.game_photos-tai {
+		display: none;
+	}
+	.game_rules {		
+		text-align: center;
+		width: 480px;
+		margin: -150px auto 0 auto;
+	}
+	.game_rules li {
+		margin-left: 0px;
+	}
+	.game_rules li::before {
+		left: calc(50% - 10.5px);
+		top: -40px;
+	}
+	.game_button {
+		margin: 57px auto 0 auto;
+	}
+	.game_rules-title {
+		margin-bottom: 81px;
+	}
+	.game_rules li:not(:last-child) {
+	    margin-bottom: 55px;
+	}
+	#pricing {
+		padding-top: 70px;
+	}
+	.pricing_subtitle {
+		margin: 10px auto 50px auto;
+	}
+	.pricing-plan {
+		width: 554px;
+		margin: 0 auto;
+	}
+	.pricing-plan_head {
+		padding-left: 280px;
+	}
+	.pricing-plan1 {
+		margin-bottom: 48px;
+	}
+	.pricing_plans {
+		padding-bottom: 65px;
+	}
+	.pricing_info-text {
+		width: 575px;
+		margin: 0 auto;
+	}
+	#feedbacks {
+	    padding: 50px 0 73px 0;
+	}
+
+	.feedback {
+		width: 352px;
+		margin-left: 4px;
+	}
+	.feedback_head {
+		width: 352px;
+	}
+	.next {
+	    right: 35%;
+	}
+	.prev {
+	    left: 35%;
+	}
+	.feedbacks_slider-wrap {
+		margin-top: -10px;
+	}
+	.footer_text {
+		width: 88%;
+	}
+	.course_img {
+		display: none;
+	}
+	.pay_text {
+		width: 90%;
+	}
+	.pay_title {
+		line-height: 65px;
+	}
+	.pay-footer .footer_info {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.feedback {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.next {
+	    right: 30%;
+	}
+	.prev {
+	    left: 30%;
+	}
+}
+
+@media screen and (max-width: 723px) {
+	.mail, .music, header .order-button, audio {
+		display: none;
+	}
+	h1 {
+		font-size: 48px;
+		line-height: 55px;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+		margin-top: 40px;
+	}
+	h1::before {
+		display: none;	
+	}
+	.offer_text {
+	    font-size: 17px;
+	    line-height: 26px;
+	    width: 100%;	   
+	    text-align: center;
+	}
+	.menu-wrap {
+		position: relative;
+	}
+	.new-bg {	
+		background: transparent;
+	}
+	.menu {
+		width: 290px;
+		margin: 0 auto;
+	}
+	.logo {
+	    margin-left: 0px;
+	}
+	.logo img {
+		width: 130px;
+	}
+	header {
+		padding-bottom: 120px;
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/mobile-header-bg.png) no-repeat center bottom / contain,				
+					linear-gradient(0deg, rgba(59,196,248,1) 0%, rgba(3,134,226,1) 100%);
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/mobile-header-bg.png) no-repeat center bottom / contain,
+					-moz-linear-gradient(90deg, rgba(59,196,248,1) 0%, rgba(3,134,226,1) 100%); 
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/mobile-header-bg.png) no-repeat center bottom / contain,
+					-webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(3,134,226,1)), color-stop(100%, rgba(59,196,248,1))); 
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/mobile-header-bg.png) no-repeat center bottom / contain,
+					-webkit-linear-gradient(90deg, rgba(59,196,248,1) 0%, rgba(3,134,226,1) 100%); 
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/mobile-header-bg.png) no-repeat center bottom / contain,
+					-o-linear-gradient(90deg, rgba(59,196,248,1) 0%, rgba(3,134,226,1) 100%); 
+		background: url(../img/snow3.png) repeat -1600px top,	            
+					url(../img/snow2.png) repeat 800px top,
+					url(../img/snow1.png) repeat top,
+					url(../img/mobile-header-bg.png) no-repeat center bottom / contain,
+					-ms-linear-gradient(90deg, rgba(59,196,248,1) 0%, rgba(3,134,226,1) 100%); 	
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0386e2', endColorstr='#3bc4f8',GradientType=0 );		
+	}
+	@keyframes snowHeader {	
+		from {		
+			background-position: -1600px -832px, 800px -832px, center -832px, center bottom, 0px 0px;
+		}
+		50% {		
+			background-position: -1400px -350px, 100px -500px, center -416px, center bottom, 0px 0px;
+		}		
+	}
+	.more-button {
+		margin: 30px auto 0 auto;
+	}
+	h2, #reason h2 {
+		line-height: 44px;
+		width: 100%;
+	}
+	#reason {
+		padding: 25px 0 90px 0;
+	}
+	.reason_subtitle {
+		font-size: 17px;
+		line-height: 25px;
+		width: 100%;
+	}
+	.video_title {
+		width: 100%;
+		text-align: center;
+	}
+	.reason_content div:last-of-type {
+		width: 100%;
+	}
+	.changes_subtitle {
+		font-size: 17px;
+		line-height: 25px;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.changes_content div:last-of-type {
+	    line-height: 23px;
+	    width: 100%;    
+	    font-size: 16px;
+	}
+	.education_subtitle {
+		font-size: 17px;
+		line-height: 25px;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.courses_subtitle, .mk_subtitle, .one-mk, #pricing h2 {
+		width: 100%;
+	}
+	.course_subtitle {
+	    width: 100%;
+	    padding: 0 4px;
+	}
+	.course_program {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.one-mk_text {
+		width: 100%;
+		padding: 0 4px;
+	}
+	.one-mk {
+		height: auto;
+		padding-bottom: 23px;
+	}
+	#game h2 {
+		margin-top: 0;
+		width: 100%;
+	}
+	.game_subtitle, .pricing_subtitle {
+		font-size: 17px;
+		line-height: 25px;
+		width: 100%;
+	}
+	.snow-tai {
+		width: 100%;
+		position: absolute;
+	}
+	.game_photos {
+		background-size: 100%;
+		height: 67vw;
+	}
+	.game_rules {
+		width: 100%;
+		margin-top: 0;
+	}
+	.pricing-plan, .footer_subtitle, .footer_mobile-deer img {
+		width: 100%;
+	}
+	.pricing-plan_head {
+		padding: 10% 0 74px 0px;
+		height: 55vw;
+		text-align: center;
+		line-height: 32px;	
+	}
+	.pricing-plan1 .pricing-plan_head, .pricing-plan2 .pricing-plan_head {
+		background-size: contain;
+	}
+	.pricing-plan_body {
+		padding: 40px 10px;
+	}
+	.pricing-plan_body li {
+		padding-left: 35px;
+	}
+	.pricing-plan_value {
+		padding-left: 0;
+		justify-content: center;
+	}
+	.pricing-plan_button {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.pricing_info-text {
+		width: 100%;
+	}
+	.deer-bg {
+		display: none;
+	}
+	.pricing_info {
+		line-height: 34px;
+	}
+	.feedbacks_subtitle {
+		width: 100%;
+		font-size: 17px;
+		line-height: 25px;
+		margin-top: 20px;
+	}
+	.footer_title {
+		font-size: 77px;
+		line-height: 90px;
+	}
+	.footer_content {
+		margin-top: 70px;
+	}
+	.footer_subtitle {
+		margin: 10px auto 15px auto;
+	}
+	.footer_button {
+		width: 290px;
+	}
+	footer .mail {
+		display: block;
+	}
+	.frontend .course_head, .design .course_head {
+		background-size: cover;
+		height: 40vw;
+	}
+	.one-mk_head1,.one-mk_head2, .one-mk_head3, .one-mk_head4,
+	.one-mk_head5, .one-mk_head6, .one-mk_head7, .one-mk_head8 {
+		background-size: cover;
+		height: 42vw;
+	}
+	.video {
+		width: 100%;
+	}
+	#agreement-modal {
+		padding: 25px;
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+	}
+	#form1-modal, #form2-modal, .order-form form {
+		width: 100%;
+	}
+	.order-form_title {
+		width: 100%;
+		margin: 35px 0 28px 0px;
+		text-align: center;
+	}
+	.order-form_price {
+		margin: 0 0 35px 0px;
+		justify-content: center;
+	}
+	.order-form_img {
+		display: none;
+	}
+	.order-form form {
+		margin-left: 0px;
+	}
+	.order-form_legal {
+		margin: 32px 0 75px 0px;
+		text-align: center;
+		width: 100%;
+	}
+	.order-form button {
+		width: 100%;
+		margin: 46px auto 0 auto;
+		display: block;
+	}
+	.pay_title {
+		line-height: 50px;
+		width: 100%;
+		font-size: 46px;
+	}
+	.pay_text {
+		font-size: 18px;
+		line-height: 26px;
+		width: 100%;		
+	}
+	.pay_form {
+		width: 100%;
+	}
+	.guarantee_text {
+		font-size: 17px;
+		width: 100%;
+	}
+	.questions_title {
+		font-size: 29px;
+		line-height: 30px;
+	}
+	.questions_text {
+		line-height: 24px;
+		width: 100%;
+	}
+	.questions .mail {
+		display: block;
+	}
+	.guarantee_icons img:not(:last-of-type) {
+		margin-right: 10px;
+	}
+
+	.success_content {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 572px) {
+	.next {
+	    right: 20%;
+	}
+	.prev {
+	    left: 20%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.feedback, .feedback_head {
+		width: 286px;
+	}
+	.feedback_body {
+		padding: 0 28px;
+		height: 200px;
+	}
+	.next {
+	    right: 10%;
+	}
+	.prev {
+	    left: 10%;
+	}
+}
+
+
+
+
+

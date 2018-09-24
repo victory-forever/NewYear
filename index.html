@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Новогоднее чудо от WAYUP</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+	<!-- Шрифты  -->
+	<link rel="stylesheet" href="css/stroke-gap-icons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
+	<!-- Модальные окна -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.arcticmodal.css">
+	<link rel="stylesheet" type="text/css" href="css/simple.css">
+	<!-- Слайдер -->
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<!-- Анимация -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- main -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+	<!-- ПЕРВЫЙ ЭКРАН-->
+	<header class="white">
+		<div class="container">		
+			<div class="clouds-wrap">
+				<div id="scene" data-friction-x="0.1" data-friction-y="0.2" data-scalar-y="22" data-scalar-x="22">
+					<div class="layer cl" data-depth="0.15">
+						<img class="cloud" src="img/cloud.png" alt="">
+					</div>
+					<div class="layer" data-depth="0.45">
+						<img class="cloud2" src="img/cloud2.png" alt="">
+					</div>
+				</div>	
+			</div>
+			<div class="smoke-wrap">
+				<img class="smoke" src="img/smoke.png" alt="">
+			</div>
+		</div>			
+		<div class="menu-wrap">
+			<div class="container">				
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="menu">
+							<a class="logo" href="https://wayup.in/">
+								<img src="img/logo.png" alt="Логотип">
+							</a>
+							<div class="mission bolder">
+								Доставляем знания и счастье с 2014 года
+							</div>
+							<div class="mail">
+								<i class="icon icon-Mail"></i>
+								<a class="bolder white" href="mailto:reg@wayup.in" rel="external">
+									reg@wayup.in
+								</a>
+							</div>
+							<div class="deadline">
+								<i class="icon icon-Hourglass"></i>
+								<div>
+									До конца чудес:
+								</div>
+							</div>
+							<div class="timer">
+								<script src="http://megatimer.ru/s/5b7abfed8447716d14d9d281670da0d2.js"></script>
+							</div>
+							<div class="music">
+								<div id="music_btn">
+									<i id="pause" class="icon icon-Pause"></i>
+									<i id="play" class="icon icon-Play"></i>
+								</div>
+								<audio id="audio" loop autoplay>
+									<source src="audio/Jingle_Bells.ogg" type="audio/ogg; codecs=vorbis">
+									<source src="audio/Jingle_Bells.mp3" type="audio/mpeg">
+								</audio>
+								<script>							  
+								    document.getElementById("music_btn").onclick = function()
+								    {
+								      $("#audio")[0].volume = 0.05;
+								      var audio = document.getElementById("audio");							      
+								      if(audio.paused == true)
+								      {
+								        document.getElementById("audio").play();							        
+								        $('#pause').fadeIn(); 
+								        $('#play').fadeOut(); 							        
+								      }
+								      else if (audio.paused == false)
+								      {
+								        document.getElementById("audio").pause();							        
+								        $('#play').fadeIn(); 
+								        $('#pause').fadeOut();							       
+								      }
+								    }
+								</script>
+							</div>
+							<div class="order-button bolder upper">
+								заказать звонок
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-6 col-md-7 col-md-offset-5">
+					<div class="offer">
+						<h1>
+							Новогоднее Чудо от WAYUP
+						</h1>
+						<div class="offer_text">
+							Забирайте наши лучшие коучинги с <span>ошеломительной скидкой до -25%,</span> а также участвуйте в розыгрыше <br> поездки в Таиланд!
+						</div>
+						<a class="more-button bolder upper scrollto" href="#reason">
+							узнать больше
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- ВТОРОЙ ЭКРАН -->
+	<section id="reason">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="reason_heading">
+						<h2>
+							Почему мы решили сделать ваш Новый год особенным
+						</h2>
+						<div class="reason_subtitle">
+							Команда WAYUP верит в мечту, волшебство и сказку. Мы хотим осуществить вашу мечту стать преуспевающим фрилансером уже в 2018 году!
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+					<div class="video">
+						<div class="video_title bolder">
+							Посмотрите это небольшое видео:
+						</div>
+						<div class="video_content">
+							<div class="thumb-wrap">
+							 	<iframe width="575" height="322" src="https://www.youtube.com/embed/_BnszHfkAlM" allowfullscreen> </iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-7 col-md-7 col-sm-12">
+					<div class="reason_content">
+						<div class="bolder">
+							Не знаю, зачем мы это делаем 
+						</div>
+						<div>
+							Листая эту страницу вы увидите, что мы действительно постарались упаковать максимум ценности с огромными бонусами в выгодное предложение с большой скидкой. Наверное, так на меня действуют новогодние праздники – очень хочу создать праздничное настроение для вас и своей команды.
+						</div>
+						<a class="scrollto" href="#changes">
+							Просто посмотрите, что вас ждет далее 
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	
+	<!-- ТРЕТИЙ ЭКРАН -->
+	<section id="changes" class="white">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="changes_heading">
+						<h2>
+							<span>
+								В Новом году изменится все.
+							</span>
+							<span>
+								И вы станете частью Нового будущего.
+							</span>
+						</h2>
+						<div class="changes_subtitle">
+							Сегодня мы наблюдаем смещение привычного восприятия работы: офисы не нужны, никто не гонится за стабильностью, люди ищут свободы и счастья
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="changes_photos">
+						<div class="changes_photo">
+							<img class="img-responsive" src="img/photo1.png" alt="">
+						</div>
+						<div class="changes_photo">
+							<img class="img-responsive" src="img/photo2.png" alt="">
+						</div>
+						<div class="changes_photo">
+							<img class="img-responsive" src="img/photo3.png" alt="">
+						</div>
+						<div class="changes_photo">
+							<img class="img-responsive" src="img/photo4.png" alt="">
+						</div>
+						<div class="changes_photo">
+							<img class="img-responsive" src="img/photo5.png" alt="">
+						</div>
+						<div class="changes_photo">
+							<img class="img-responsive" src="img/photo6.png" alt="">
+						</div>
+						<div class="changes_photo">
+							<img class="img-responsive" src="img/photo7.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="changes_content">
+						<div class="bolder">
+							Фриланс – это современные реалии успеха.
+						</div>
+						<div>
+							Новогодняя скидка от WAYUP позволит вам получить мощный практический инструмент для обретения знаний и выхода на фриланс <br> с гарантией результата
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ЧЕТВЁРТЫЙ ЭКРАН -->
+
+	<section id="education">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="education_heading">
+						<h2>
+							Что вас ждет под этот Новый год
+						</h2>
+						<div class="education_subtitle">
+							Просто посмотрите на этот ошеломительный набор ценности и ответьте себе на вопрос: готовы ли вы стать его обладателем?
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="courses">
+						<div class="courses_heading">
+							<h3>
+								Онлайн-Коучинги
+							</h3>
+							<div class="courses_subtitle">
+								Наши основные образовательные программы подготовки фрилансеров с нуля, с гарантией результата
+							</div>
+						</div>
+						<div class="course design">
+							<div class="course_head"></div>
+							<div class="course_heading">
+								<div class="course_title bolder">
+									Веб-Дизайнер: Счастливый Билет В Таиланд
+								</div>
+								<div class="course_subtitle">
+									Онлайн-коучинг на 2 месяца. Обучение профессии веб-дизайнера и гарантированный результат - за время коучинга вы заработаете на билет в Таиланд!
+								</div>
+							</div>
+							<div class="course_value">
+								Ценность: 459$
+							</div>
+							<div class="course_program-box">
+								<div class="course_program-head bolder">
+									<i class="icon icon-Folder"></i>
+									<div>
+										Программа коучинга
+									</div>
+								</div>
+								<div class="course_program">
+									<div class="course_program-item">
+										Введение и инструменты
+									</div>
+									<div class="course_program-item">
+										Проектирование сайта
+									</div>
+									<div class="course_program-item">
+										Адаптивный веб-дизайн
+									</div>
+									<div class="course_program-item">
+										Графический дизайн
+									</div>
+									<div class="course_program-item">
+										Верстка и интеграция
+									</div>
+									<div class="course_program-item">
+										Портфолио и клиенты
+									</div>
+									<div class="course_program-item">
+										Вперед за билетом
+									</div>
+									<a class="course_program-watch" href="https://wayup.in/library/course4" target="_blank">
+										<div>
+											Смотреть программу коучинга
+										</div>
+										<i class="fa  fa-long-arrow-right"></i>
+									</a>
+								</div>
+							</div>
+							<div class="course_date">
+								<i class="icon icon-Starship"></i>
+								<div class="bolder">
+									Старт: 29 января 2018
+								</div>
+							</div>
+							<div class="course_img santa wow animated slideInLeft">
+								<img src="img/santa-couch.png" alt="">
+							</div>
+							<div class="course_img santa-hands">
+								<img src="img/santa-hands.png" alt="">
+							</div>
+						</div>
+						<div class="course frontend">
+							<div class="course_head"></div>
+							<div class="course_heading">
+								<div class="course_title bolder">
+									Веб-Верстальщик: Код Фрилансера
+								</div>
+								<div class="course_subtitle">
+									2.5-месячный онлайн-коучинг по верстке и frontend-разработке. Гарантия заработка на фрилансе еще в процессе обучения!
+								</div>
+							</div>
+							<div class="course_value">
+								Ценность: 459$
+							</div>
+							<div class="course_program-box">
+								<div class="course_program-head">
+									<i class="icon icon-Folder"></i>
+									<div class="bolder">
+										Программа коучинга
+									</div>
+								</div>
+								<div class="course_program">
+									<div class="course_program-item">
+										Введение в профессию
+									</div>
+									<div class="course_program-item">
+										HTML-проектирование
+									</div>
+									<div class="course_program-item">
+										CSS-разработка
+									</div>
+									<div class="course_program-item upper">
+										responsive & adaptive
+									</div>
+									<div class="course_program-item upper">
+										javascript И jquery
+									</div>
+									<div class="course_program-item">
+										Уровень 2.0
+									</div>
+									<div class="course_program-item">
+										Хостинг и CMS 
+									</div>
+									<div class="course_program-item">
+										Фриланс и заработок
+									</div>									
+								</div>
+								<a class="course_program-watch" href="https://wayup.in/library/course7" target="_blank">
+									<div>
+										Смотреть программу коучинга
+									</div>
+									<i class="fa  fa-long-arrow-right"></i>
+								</a>
+							</div>
+							<div class="course_date">
+								<i class="icon icon-Starship"></i>
+								<div class="bolder">
+									Старт: 18 декабрая 2018
+								</div>
+							</div>
+							<div class="course_img deer wow animated slideInRight">
+								<img src="img/deer-couch.png" alt="">
+							</div>
+							<div class="course_img deer-hands">
+								<img src="img/deer-hands.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mk">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="mk_heading">
+							<h3>
+								Мастер-Классы
+							</h3>
+							<div class="mk_subtitle">
+								Большие онлайн-занятия по веб-дизайну, верстке, фрилансу и развитию в Интернете
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="mk_list">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="one-mk">
+								<div class="one-mk_head one-mk_head1"></div>
+								<div class="one-mk_title">
+									Landing Page 2017
+								</div>
+								<div class="one-mk_text">
+									Учавствуй в серии мастер-классов по дизайну и верстке современного Landing Page с проверкой работы и приятными призами
+								</div>
+								<div class="one-mk_value">
+									Ценность: 15$
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="one-mk">
+								<div class="one-mk_head one-mk_head2"></div>
+								<div class="one-mk_title">
+									Веб-Дизайн Марафон
+								</div>
+								<div class="one-mk_text">
+									Пройдите мастер-классы по разработке Landing Page и получите скидку на обучение веб-дизайну на одном из самых престижных курсов СНГ
+								</div>
+								<div class="one-mk_value">
+									Ценность: 15$
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="one-mk">
+								<div class="one-mk_head one-mk_head3"></div>
+								<div class="one-mk_title">
+									Точка Старта
+								</div>
+								<div class="one-mk_text">
+									Два дня насыщенной работы и тотальной прокачки ваших навыков в веб-дизайне бок о бок с профессионалом + подарки/призы
+								</div>
+								<div class="one-mk_value">
+									Ценность: 15$
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="one-mk">
+								<div class="one-mk_head one-mk_head4"></div>
+								<div class="one-mk_title">
+									Web Games
+								</div>
+								<div class="one-mk_text">
+									Освойте основы профессии frontend-разработчика за 3 больших практических мастер-класса, с проверкой домашнего задания и невероятными бонусами и призом
+								</div>
+								<div class="one-mk_value">
+									Ценность: 15$
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="one-mk">
+								<div class="one-mk_head one-mk_head5"></div>
+								<div class="one-mk_title">
+									Исходный Код
+								</div>
+								<div class="one-mk_text">
+									Серия больших мастер-классов для начинающих и продвинутых верстальщиков с проверкой работы и приятными призами
+								</div>
+								<div class="one-mk_value">
+									Ценность: 15$
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="one-mk">
+								<div class="one-mk_head one-mk_head6"></div>
+								<div class="one-mk_title">
+									Frontend-гений
+								</div>
+								<div class="one-mk_text">
+									Освойте основы профессии frontend-разработчика за 3 больших практических мастер-класса с проверкой домашнего задания и невероятными бонусами от экспертов
+								</div>
+								<div class="one-mk_value">
+									Ценность: 15$
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="one-mk">
+								<div class="one-mk_head one-mk_head7"></div>
+								<div class="one-mk_title">
+									Первый Пиксель
+								</div>
+								<div class="one-mk_text">
+									Участвуйте в серии больших эксклюзивных мастер-классов по старту вашей карьеры веб-дизайнера с нуля с проверкой работы и невероятными призами
+								</div>
+								<div class="one-mk_value">
+									Ценность: 15$
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="one-mk">
+								<div class="one-mk_head one-mk_head8"></div>
+								<div class="one-mk_title">
+									Design-Freelance
+								</div>
+								<div class="one-mk_text">
+									Участвуйте в серии больших эксклюзивных мастер-классов по старту вашей карьеры веб-дизайнера с нуля
+								</div>
+								<div class="one-mk_value">
+									Ценность: 15$
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="education_value">
+						<div>
+							Общая ценность: $1000
+						</div>
+						<div>
+							Вы сэкономите почти в 2 раза и это еще не всё...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ПЯТЫЙ ЭКРАН -->
+
+	<section id="game">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="game_heading">
+						<h2>
+							Забирайте поездку на райский остров в Таиланде!
+						</h2>
+						<div class="game_subtitle">
+							Все участники «Новогоднего Чуда от WAYUP» получают возможность участвовать в розыгрыше поездки в Таиланд на двоих!
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="game_photos">
+						<img class="game_photos-tai" src="img/tai1.png" alt="">
+						<img class="game_photos-tai" src="img/tai2.png" alt="">
+						<img class="game_photos-tai" src="img/tai3.png" alt="">						
+						<div class="snow-tai">
+							<img class="snow-tai1" src="img/snow-tai.png" alt="">
+							<img class="snow-tai2" src="img/snow-tai.png" alt="">
+						</div>						
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="game_rules">
+						<div class="game_rules-title bolder">
+							Вот что нужно, чтобы полететь в Таиланд:
+						</div>
+						<ul>
+							<li>
+								Выбрать один из <a class="scrollto" href="#pricing">форматов «Новогоднего Чуда»</a>  и начать свою новую карьеру вместе с WAYUP
+							</li>
+							<li>
+								Автоматически вы становитесь участником розыгрыша поездки
+							</li>
+							<li>
+								Дождаться 29 декабря – именно в этот день в прямом эфире будет случайным образом выбран победитель
+							</li>
+							<li>
+								Выбирайте любой остров или курорт Таиланда, а также удобный месяц для поездки – мы оплатим его стоимость (до $850).
+							</li>
+							<li>
+								Отправляйтесь в ваше лучшее фриланс-путешествие!
+							</li>
+						</ul>
+						<a class="game_button upper bolder scrollto" href="#pricing">
+							хочу в таиланд
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ШЕСТОЙ ЭКРАН -->
+
+	<section id="pricing">
+		<div class="deer-bg wow animated slideInLeft"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="pricing_heading white">
+						<h2 class="white">
+							Выберите свой формат «Новогоднего чуда от WAYUP»
+						</h2>
+						<div class="pricing_subtitle">
+							Мы разработали 2 формата, чтобы вы получили именно тот результат, на который рассчитываете
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pricing_plans">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="pricing-plan pricing-plan1">
+							<div class="pricing-plan_head white">
+								Формат <br> «Придумаю позже»
+							</div>
+							<div class="pricing-plan_body">
+								<ul>
+									<li>
+										<div>
+											Один коучинг на выбор со скидкой -15%
+										</div>
+										<div>
+											«Веб-Дизайнер: Счастливый Билет В Таиланд» или «Веб-Верстальщик: Код Фрилансера»
+										</div>
+									</li>
+									<li>
+										<div>
+											4 закрытых мастер-класса из 8
+										</div>
+										<div>
+											Получите доступ к записям закрытых мастер-классов (список выше)
+										</div>
+									</li>
+									<li>
+										<div>
+											Участие в розыгрыше поездки в Таиланд ~$850
+										</div>
+										<div>
+											Выбор этого формата дает вам возможность выиграть незабываемое путешествие на двоих в Таиланд
+										</div>
+									</li>
+									<li>
+										<div>
+											Секретный подарок от Андрея
+										</div>
+										<div>
+											Андрей приготовил особый новогодний подарок для всех участников «Новогоднего Чуда»
+										</div>
+									</li>
+								</ul>
+								<div class="pricing-plan_value">
+									<span>Стоимость:</span>
+									<span>$790</span>
+									<span>$399</span>
+								</div>
+								<div class="pricing-plan_button pricing-plan_button1 upper bolder">
+									заказать чудо
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="pricing-plan pricing-plan2">
+							<div class="pricing-plan_head white">
+								Формат <br> «Придумаю позже 2»
+							</div>
+							<div class="pricing-plan_body">
+								<ul>
+									<li>
+										<div>
+											Два коучинга со скидкой -20%
+										</div>
+										<div>
+											«Веб-Дизайнер: Счастливый Билет В Таиланд» или «Веб-Верстальщик: Код Фрилансера»
+										</div>
+									</li>
+									<li>
+										<div>
+											4 закрытых мастер-класса из 8
+										</div>
+										<div>
+											Получите доступ к записям закрытых мастер-классов (список выше)
+										</div>
+									</li>
+									<li>
+										<div>
+											Участие в розыгрыше поездки в Таиланд ~$850
+										</div>
+										<div>
+											Выбор этого формата дает вам возможность выиграть незабываемое путешествие на двоих в Таиланд
+										</div>
+									</li>
+									<li>
+										<div>
+											Секретный подарок от Андрея
+										</div>
+										<div>
+											Андрей приготовил особый новогодний подарок для всех участников «Новогоднего Чуда»
+										</div>
+									</li>
+								</ul>
+								<div class="pricing-plan_value">
+									<span>Стоимость:</span>
+									<span>$1300 </span>
+									<span>$769</span>
+								</div>
+								<div class="pricing-plan_button pricing-plan_button2 upper bolder">
+									заказать чудо
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pricing_info white">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="pricing_info-text">
+							Это последнее предложение такого масштаба в этом году. В 2018-ом стоимость всех коучингов повысится и такая стоимость будет уже недоступна.
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+
+	<!-- СЕДЬМОЙ ЭКРАН -->
+
+	<section id="feedbacks">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="feedbacks_heading">
+						<h2>
+							Смотрите видео-истории наших учеников
+						</h2>
+						<div class="feedbacks_subtitle">
+							Ежедневно тысячи наших выпускников строят свою новую карьеру в любимой сфере благодаря коучингам и курсам от WAYUP. Станьте частью чего-то большого с «Новогодним Чудом»
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="feedbacks_slider-wrap">
+						<div class="feedbacks_slider">
+							<div>
+								<div class="feedback">
+									<div class="feedback_head">
+										<img src="img/slider-foto1.png" alt="">
+									</div>
+									<div class="feedback_body">
+										<div class="feedback_info">
+											<div class="feedback_name">
+												Светлана Власенко
+											</div>
+											<div class="feedback_quote">
+												Коучинг проходил очень интенсивно, продуктивно. Было иногда очень сложно.
+											</div>
+											<div class="feedback_social">
+												<i class="icon icon-Linked"></i>
+												<a href="https://vk.com/id142962677" target="_blank">
+													vk.com/id142962677
+												</a>
+											</div>
+										</div>
+										<a class="feedback_button bolder upper" href="https://www.youtube.com/watch?v=i7pkNKZxU8Y&feature=youtu.be" target="_blank">
+											смотреть отзыв
+										</a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="feedback">
+									<div class="feedback_head">
+										<img src="img/slider-foto2.png" alt="">
+									</div>
+									<div class="feedback_body">
+										<div class="feedback_info">
+											<div class="feedback_name">
+												Паша Вайцель
+											</div>
+											<div class="feedback_quote">
+												Знания зажгли во мне факел и я теперь точно знаю, что “дорогу осилит идущий”
+											</div>
+											<div class="feedback_social">
+												<i class="icon icon-Linked"></i>
+												<a href="https://vk.com/vaytsel" target="_blank">
+													https://vk.com/vaytsel
+												</a>
+											</div>
+										</div>
+										<a class="feedback_button bolder upper" href="https://youtu.be/NkLmOq8zXFc" target="_blank">
+											смотреть отзыв
+										</a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="feedback">
+									<div class="feedback_head">
+										<img src="img/slider-foto3.png" alt="">
+									</div>
+									<div class="feedback_body">
+										<div class="feedback_info">
+											<div class="feedback_name">
+												Наталья Коломазова
+											</div>
+											<div class="feedback_quote">
+												Такой курс хотелось бы рекомендовать молодым мамам в декрете
+											</div>
+											<div class="feedback_social">
+												<i class="icon icon-Linked"></i>
+												<a href="https://vk.com/id5164014" target="_blank">
+													https://vk.com/id5164014
+												</a>
+											</div>
+										</div>
+										<a class="feedback_button bolder upper" href="https://youtu.be/qS1jGRn5AaA" target="_blank">
+											смотреть отзыв
+										</a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="feedback">
+									<div class="feedback_head">
+										<img src="img/slider-foto4.jpg" alt="">
+									</div>
+									<div class="feedback_body">
+										<div class="feedback_info">
+											<div class="feedback_name">
+												Надежда Медвинская
+											</div>
+											<div class="feedback_quote">
+												Андрей мне просто открыл глаза на то, насколько интересной может быть верстка
+											</div>
+											<div class="feedback_social">
+												<i class="icon icon-Linked"></i>
+												<a href="https://vk.com/id8582606" target="_blank">
+													https://vk.com/id8582606
+												</a>
+											</div>
+										</div>
+										<a class="feedback_button bolder upper" href="https://youtu.be/bdWFtlnut7k" target="_blank">
+											смотреть отзыв
+										</a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="feedback">
+									<div class="feedback_head">
+										<img src="img/slider-foto5.jpg" alt="">
+									</div>
+									<div class="feedback_body">
+										<div class="feedback_info">
+											<div class="feedback_name">
+												Виктор Вивиан
+											</div>
+											<div class="feedback_quote">
+												Структура коучинга очень привлекает, самому можно учиться годами и ничему не научиться. 
+											</div>
+											<div class="feedback_social">
+												<i class="icon icon-Linked"></i>
+												<a href="https://vk.com/id389797741" target="_blank">
+													https://vk.com/id389797741
+												</a>
+											</div>
+										</div>
+										<a class="feedback_button bolder upper" href="https://youtu.be/RY57VGwpC_Q" target="_blank">
+											смотреть отзыв
+										</a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="feedback">
+									<div class="feedback_head">
+										<img src="img/slider-foto6.jpg" alt="">
+									</div>
+									<div class="feedback_body">
+										<div class="feedback_info">
+											<div class="feedback_name">
+												Вероника Дмытрык
+											</div>
+											<div class="feedback_quote">
+												Сейчас я знаю, что за 2 месяца можно получить серьезные знания и научиться применять их на практике
+											</div>
+											<div class="feedback_social">
+												<i class="icon icon-Linked"></i>
+												<a href="https://vk.com/veronika_dmytryk" target="_blank">
+													https://vk.com/veronika_dmytryk
+												</a>
+											</div>
+										</div>
+										<a class="feedback_button bolder upper" href="https://youtu.be/TGrP0CrfWIo" target="_blank">
+											смотреть отзыв
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="feedbacks_slider-controls">
+							<i class="fa fa-angle-left prev"></i>
+							<i class="fa fa-angle-right next"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ВОСЬМОЙ ЭКРАН -->
+
+	<footer class="footer white">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+					<div class="footer_img">
+						<div class="footer_deer">
+							<img src="img/deer-footer.png" alt="">
+						</div>						
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+					<div class="footer_content">
+						<div class="footer_title">
+							Пожалуй, это все . 
+						</div>
+						<div class="footer_subtitle">
+							В преддверие 2018-ого года мы постарались создать действительно волшебное предложение
+						</div>
+						<div class="footer_mobile-deer">
+							<img src="img/mobile-deer-footer.png" alt="">
+						</div>
+						<div class="footer_text">
+							Два наших лучших коучинга с небывалой скидкой, доступ к закрытым мастер-классам и возможность выиграть поездку на двоих в тропический рай – Таиланд. Мы делаем IT-образование доступным и в этот Новый год мы делаем особое предложение для вас, если вам не безразлично ваше развитие и успех.
+						</div>
+						<div class="footer_text2 bolder">
+							Больше нет времени ждать. Включайтесь.
+						</div>
+						<div class="timer footer_timer">
+							<script src="http://megatimer.ru/s/5b7abfed8447716d14d9d281670da0d2.js"></script>
+						</div>
+						<div class="footer_warning">
+							Когда таймер дойдет до нуля... <br> <span>Вы уже никогда не сможете воспользоваться этими скидками...</span> 
+						</div>
+						<a class="footer_button upper bolder scrollto" href="#pricing">
+							хочу скидку и в таиланд
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+					<div class="footer_info">
+						<div>
+							2017-2018 / Все права защищены 
+						</div>
+						<div>
+							WAYUP & Андрей Гаврилов
+						</div>
+						<div class="agreement">
+							Политика конфиденциальности
+						</div>
+						<div class="mail">
+							<i class="icon icon-Mail"></i>
+							<a class="bolder white" href="mailto:reg@wayup.in" rel="external">
+								reg@wayup.in
+							</a>
+						</div>
+						<div class="footer_socials clearfix">	
+							<a href="https://vk.com/wayup_in" rel="nofollow" target="_blank">
+								<i class="fa fa-vk"></i>
+							</a>
+							<a href="https://www.facebook.com/wayup.in" rel="nofollow" target="_blank">
+								<i class="fa fa-facebook"></i>
+							</a>
+							<a href="https://www.youtube.com/c/wayupin" rel="nofollow" target="_blank">
+								<i class="fa fa-youtube-play"></i>
+							</a>
+							<a href="https://www.instagram.com/andrew.gavrilov" target="_blank">
+								<i class="fa fa-instagram"></i>
+							</a>
+						</div>
+						<div class="order-button bolder upper">
+							заказать звонок
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+	<!-- Модальное окно Форма Заказать Чудо1 -->
+	<div style="display: none;">
+	    <div class="box-modal" id="form1-modal">
+	        <div class="order-form">
+	        	<div class="order-form_title">
+	        		Заказать формат <br> <span>«Придумаю позже» </span>
+	        	</div>
+	        	<div class="order-form_price">
+	        		<span>
+	        			$790 
+	        		</span>
+	        		<span>
+	        			$399
+	        		</span>
+	        	</div>
+	        	<form id="goToNewPage" action="#">
+					<input type="text" name="name" placeholder="Имя" required="">		
+					<input type="text" name="email" placeholder="Почта" required="">	
+					<input type="tel" name="tel" placeholder="Телефон" required="">
+					<textarea name="comment" placeholder="Комментарий"></textarea>
+					<button class="white upper bolder" type="submit" data-submit>
+						перейти к оплате
+					</button>
+				</form>
+				<div class="order-form_legal">
+					Ваши данные не будут переданы 3-им лицам
+				</div>				
+	        </div>
+	        <div class="order-form_img">
+				<img src="img/snowman.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<!-- Модальное окно Форма Заказать Чудо2 -->
+	<div style="display: none;">
+	    <div class="box-modal" id="form2-modal">
+	        <div class="order-form">
+	        	<div class="order-form_title">
+	        		Заказать формат <br> <span>«Придумаю позже 2» </span>
+	        	</div>
+	        	<div class="order-form_price">
+	        		<span>
+	        			$1300  
+	        		</span>
+	        		<span>
+	        			$769
+	        		</span>
+	        	</div>
+	        	<form id="goToNewPage2" action="#">
+					<input type="text" name="name" placeholder="Имя" required="">		
+					<input type="text" name="email" placeholder="Почта" required="">	
+					<input type="tel" name="tel" placeholder="Телефон" required="">
+					<textarea name="comment" placeholder="Комментарий"></textarea>
+					<button class="white upper bolder" type="submit" data-submit>
+						перейти к оплате
+					</button>
+				</form>
+				<div class="order-form_legal">
+					Ваши данные не будут переданы 3-им лицам
+				</div>				
+	        </div>
+	        <div class="order-form_img">
+				<img src="img/snowman.png" alt="">
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- Модальное окно Соглашение-->
+	<div style="display: none;">
+	    <div class="box-modal" id="agreement-modal">
+	        <div class="agreement-content">
+	        	<div>
+	        		Данное соглашение об обработке персональных данных разработано в соответствии с законодательством Украины и Российской Федерации. Все лица заполнившие сведения составляющие персональные данные на данном сайте, а также разместившие иную информацию обозначенными действиями подтверждают свое согласие на обработку персональных данных и их передачу оператору обработки персональных данных. Под персональными данными Гражданина понимается нижеуказанная информация: Имя, адрес электронной почты, номер мобильного телефона. Граждане направляют свои персональные данные оператору в целях предоставления последним услуги по созданию сайта. Гражданин, принимая настоящее Соглашение, выражают свою заинтересованность и полное согласие, что обработка их персональных данных может включать в себя следующие действия: сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, уничтожение. Гражданин гарантирует: информация, им предоставленная, является полной, точной и достоверной; при предоставлении информации не нарушается действующее законодательство Украины и Российской Федерации, законные права и интересы третьих лиц; вся предоставленная информация заполнена Гражданина в отношении себя лично.
+	        	</div>
+	        	<div class="box-modal_close arcticmodal-close">
+	        		Отлично, все понятно
+	        	</div>		
+	        </div>
+		</div>
+	</div>
+
+
+
+	<!-- loader -->
+
+	<div id="loader">
+		<img src="img/ripple.svg" alt="">
+	</div>
+
+
+
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/wow.min.js"></script>	
+	<script src="js/timer.min.js"></script>
+    <script>new WOW().init({mobile:false});</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+	<script src="js/slick.min.js"></script>	
+	<script src="js/jquery.arcticmodal.js"></script>	
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
